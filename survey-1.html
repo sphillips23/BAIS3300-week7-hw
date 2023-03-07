@@ -9,6 +9,67 @@
 </head>
 <body>
     <h1>Survey Page 1</h1>
+
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div>
+                    <label for="fname"> First name:
+                        <input id="fname" type="text" autofocus >
+                    </label>
+                </div>
+                <div></div>
+                    <label for="lname"> Last name:
+                        <input id="lname" type="text"  >
+                    </label>
+                    <div>
+                        <label for="phone"> Phone number:
+                            <input id="phone" type="tel" placeholder="(555) 333-1212">
+                        </label>
+                    </div>
+                    <div></div>
+                    <label for="email"> Email address:
+                        <input id="email" type="email" >
+                    </label>
+
+                    <div>
+                        <label for="age">Undergraduate Year:
+                            <select name="age" id="age" required>
+                                <option value="">Please select a response</option>
+                                <option value="fresh">Freshman</option>
+                                <option value="soph">Sophomore</option>
+                                <option value="jun">Junior</option>
+                                <option value="sen">Senior</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </label>
+        
+                    </div>
+
+                    <div>
+                        <label for="female"> How do you identify?
+                            <input type="radio" id="female" name="gender" value="female"> Female 
+                        </label>
+                        
+                        <label for="male">
+                            <input type="radio" id="male" name="gender" value="male"> Male
+                        </label>
+                        
+                        <label for="non-binary">
+                        <input type="radio" id="non-binary" name="gender" value="non-binary">Non-binary
+                        </label>   
+
+                        <label for="prefer not to say">
+                            <input type="radio" id="other" name="gender" value="other">Prefer not to say
+                            </label>   
+
+                    </div>
+                   
+
+            </fieldset>
+            &nbsp;  
+        </form>
+        
         <button onclick="window.location.href='./survey-2.html';">
         Next page
     </button>
