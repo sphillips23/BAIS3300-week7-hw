@@ -15,30 +15,32 @@
                 <legend>Contact Information</legend>
                 <div>
                     <label for="fname"> First name:
-                        <input id="fname" type="text" >
+                        <input id="fname" type="text" autofocus >
                     </label>
                 </div>
                 <div></div>
                     <label for="lname"> Last name:
                         <input id="lname" type="text"  >
                     </label>
+                    <div>
+                        <label for="phone"> Phone number:
+                            <input id="phone" type="tel" placeholder="(555) 333-1212">
+                        </label>
+                    </div>
                     <div></div>
                     <label for="email"> Email address:
                         <input id="email" type="email" >
                     </label>
+
                     <div>
-                    <label for="phone"> Phone number:
-                        <input id="phone" type="tel" placeholder="(555) 333-1212">
-                    </label>
-                </div>
-                    <div>
-                        <label for="gender">Gender:
-                            <select name="gender" id="gender" required>
-                                <option value="select">-Select-</option>
-                                <option value="male">Male</option>
-                                <option value="female">Female</option>
+                        <label for="age">Undergraduate Year:
+                            <select name="age" id="age" required>
+                                <option value="">Please select a response</option>
+                                <option value="fresh">Freshman</option>
+                                <option value="soph">Sophomore</option>
+                                <option value="jun">Junior</option>
+                                <option value="sen">Senior</option>
                                 <option value="other">Other</option>
-                                <option value="prefer not to say">Prefer Not to Say</option>
                             </select>
                         </label>
         
@@ -62,6 +64,7 @@
                             </label>   
 
                     </div>
+                   
 
             </fieldset>
             &nbsp;  
