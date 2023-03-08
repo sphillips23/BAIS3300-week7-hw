@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 <body>
-    <h1>Survey Page 1</h1>
+    <h1>Contact Information</h1>
 
         <form>
             <fieldset>
-                <legend>Contact Information</legend>
                 <div>
                     <label for="fname"> First name:
                         <input id="fname" type="text" autofocus >
@@ -33,7 +32,7 @@
                     </label>
 
                     <div>
-                        <label for="age">Undergraduate Year:
+                        <label for="age">Undergraduate year:
                             <select name="age" id="age" required>
                                 <option value="">Please select a response</option>
                                 <option value="fresh">Freshman</option>
@@ -69,8 +68,10 @@
             </fieldset>
             &nbsp;  
         </form>
-        
-        <button onclick="window.location.href='./survey-2.html';">
+        <button aria-label="Go back a page" onclick="window.location.href='./index.html';">
+            Back
+        </button>
+        <button aria-label="Go to next page" onclick="window.location.href='./survey-2.html';">
         Next page
     </button>
     </p>

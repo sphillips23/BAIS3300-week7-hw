@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 <body>
-    <h1>Hobby Information</h1>
+    <h1>Lifestyle Information</h1>
     <form>
+        <legend><strong>Choose your favorite activities:</strong></legend>
         <fieldset>
-            <legend>Choose your favorite activities:</legend>
             <div>
                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Music">
                 <label for="vehicle1"> Listening to Music</label><br>
@@ -25,16 +25,83 @@
                 <label for="vehicle3"> Working out</label><br>
                 <input type="checkbox" id="vehicle3" name="vehicle3" value="Read">
                 <label for="vehicle3"> Reading</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Biking">
+                <label for="vehicle3"> Biking</label><br>
 
                 </div>
 
                 
 
         </fieldset>
+
+        <legend><strong>Choose the answer that best describes you:</strong></legend>
+        <fieldset>
+            <div>
+                <label for="morning"> I am a...
+                    <input type="radio" id="morning" name="typeofperson" value="morning"> morning person 
+                </label>
+                <label for="night"> 
+                    <input type="radio" id="night" name="typeofperson" value="night"> night person 
+                </label> 
+
+            </div>
+            <div>
+                <label for="little"> I sleep approximately...
+                    <input type="radio" id="little" name="sleep" value="lessthan6"> 6 or less hours a night
+                </label>
+                <label for="middle"> 
+                    <input type="radio" id="middle" name="sleep" value="7-8"> 7-8 hours a night
+                </label> 
+                <label for="high"> 
+                    <input type="radio" id="high" name="sleep" value="9+"> 9+ hours a night
+                </label>
+
+            </div>
+            <div>
+                <label for="notenough"> I drink...
+                    <input type="radio" id="NE" name="water" value="0-6"> 0-6 glasses of water a day
+                </label>
+                <label for="enough"> 
+                    <input type="radio" id="E" name="water" value="7-10"> 7-10 glasses of water a day
+                </label> 
+                <label for="morethanenough"> 
+                    <input type="radio" id="ME" name="water" value="11+"> 11+ glasses of water a day
+                </label>
+
+            </div>
+            <div>
+                <label for="less"> I wish I had...
+                    <input type="radio" id="less" name="freetime" value="less"> less free time
+                </label>
+                <label for="more"> 
+                    <input type="radio" id="more" name="freetime" value="more"> more free time
+                </label> 
+                <label for="perfect"> 
+                    <input type="radio" id="perfect" name="freetime" value="perfect"> I have the perfect amount of free time
+                </label>
+
+            </div>
+            <div>
+                <label for="0-3"> I am active...
+                    <input type="radio" id="notactive" name="workout" value="0-3"> 0-3 times a week
+                </label>
+                <label for="3-5"> 
+                    <input type="radio" id="active" name="workout" value="3-5"> 3-5 times a week
+                </label> 
+                <label for="6+"> 
+                    <input type="radio" id="veryactive" name="workout" value="6+"> 6+ times a week
+                </label>
+
+            </div>
+
+        </fieldset>
       
         &nbsp; 
         </form>
-        <button onclick="window.location.href='./thank-you.html';">
+        <button aria-label="Go to back a page" onclick="window.location.href='./survey-1.html';">
+            Back
+        </button>
+        <button aria-label="Go to the next page" onclick="window.location.href='./thank-you.html';">
         Submit survey 
     </button>
     </p>
