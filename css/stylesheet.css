@@ -1,9 +1,29 @@
+/* color map */
+/* light purple: #ead0fb */
+/* dark purple: #4c168d */
+/* blue: #0519ad */
+/* black: #000000 */
+
+
+
 body {
-    background-color: aliceblue;
-    font-family: "Source Code Pro";
+    background-color: #f9f2fd ;
 }
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4c168d;
 }
 
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: #4c168d;
+}
+
+fieldset{
+    background-color: #ead0fb;
+}
+
+legend{
+    color: #4c168d;
+}
