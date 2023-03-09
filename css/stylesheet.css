@@ -22,10 +22,14 @@ h2{
 
 fieldset{
     background-color: #f9f2fd ;
+    border-style: solid;
+    border-color: #4c168d;
 }
 
 legend{
     color: #4c168d;
+    background-color: #eedafb;
+    border-style: solid;
 }
 
 p{
