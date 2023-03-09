@@ -10,32 +10,31 @@
 <body>
     <h1>Lifestyle Information</h1>
     <form>
-        <legend><strong>Choose your favorite activities:</strong></legend>
         <fieldset>
+            <legend><strong>Choose your favorite activities:</strong></legend>
             <div>
-                <input type="checkbox" id="vehicle1" name="vehicle1" value="Music">
-                <label for="vehicle1"> Listening to Music</label><br>
-                <input type="checkbox" id="vehicle2" name="vehicle2" value="Netflix">
-                <label for="vehicle2"> Watching TV</label><br>
-                <input type="checkbox" id="vehicle3" name="vehicle3" value="Cooking">
-                <label for="vehicle3"> Cooking</label><br>
-                <input type="checkbox" id="vehicle3" name="vehicle3" value="Painting">
-                <label for="vehicle3"> Painting</label><br>
-                <input type="checkbox" id="vehicle3" name="vehicle3" value="WorkingOut">
-                <label for="vehicle3"> Working out</label><br>
-                <input type="checkbox" id="vehicle3" name="vehicle3" value="Read">
-                <label for="vehicle3"> Reading</label><br>
-                <input type="checkbox" id="vehicle3" name="vehicle3" value="Biking">
-                <label for="vehicle3"> Biking</label><br>
+                <input type="checkbox" id="music" name="vehicle1" value="Music">
+                <label for="music"> Listening to Music</label><br>
+                <input type="checkbox" id="tv" name="vehicle2" value="Netflix">
+                <label for="tv"> Watching TV</label><br>
+                <input type="checkbox" id="cooking" name="vehicle3" value="Cooking">
+                <label for="cooking"> Cooking</label><br>
+                <input type="checkbox" id="painting" name="vehicle3" value="Painting">
+                <label for="painting"> Painting</label><br>
+                <input type="checkbox" id="workout" name="vehicle3" value="WorkingOut">
+                <label for="workout"> Working out</label><br>
+                <input type="checkbox" id="reading" name="vehicle3" value="Read">
+                <label for="reading"> Reading</label><br>
+                <input type="checkbox" id="biking" name="vehicle3" value="Biking">
+                <label for="biking"> Biking</label><br>
 
                 </div>
 
                 
 
         </fieldset>
-
-        <legend><strong>Choose the answer that best describes you:</strong></legend>
         <fieldset>
+            <legend><strong>Choose the answer that best describes you:</strong></legend>
             <div>
                 <label for="morning"> I am a...
                     <input type="radio" id="morning" name="typeofperson" value="morning"> morning person 
@@ -59,13 +58,13 @@
             </div>
             <div>
                 <label for="notenough"> I drink...
-                    <input type="radio" id="NE" name="water" value="0-6"> 0-6 glasses of water a day
+                    <input type="radio" id="notenough" name="water" value="0-6"> 0-6 glasses of water a day
                 </label>
                 <label for="enough"> 
-                    <input type="radio" id="E" name="water" value="7-10"> 7-10 glasses of water a day
+                    <input type="radio" id="enough" name="water" value="7-10"> 7-10 glasses of water a day
                 </label> 
                 <label for="morethanenough"> 
-                    <input type="radio" id="ME" name="water" value="11+"> 11+ glasses of water a day
+                    <input type="radio" id="morethanenough" name="water" value="11+"> 11+ glasses of water a day
                 </label>
 
             </div>
@@ -82,13 +81,13 @@
 
             </div>
             <div>
-                <label for="0-3"> I am active...
+                <label for="notactive"> I am active...
                     <input type="radio" id="notactive" name="workout" value="0-3"> 0-3 times a week
                 </label>
-                <label for="3-5"> 
+                <label for="active"> 
                     <input type="radio" id="active" name="workout" value="3-5"> 3-5 times a week
                 </label> 
-                <label for="6+"> 
+                <label for="veryactive"> 
                     <input type="radio" id="veryactive" name="workout" value="6+"> 6+ times a week
                 </label>
 
@@ -104,8 +103,7 @@
         <button aria-label="Go to the next page" onclick="window.location.href='./thank-you.html';">
         Submit survey 
     </button>
-    </p>
-    <p>page 2 of 2</p>
+    <p><strong>page 2 of 2</strong></p>
 </body>
 </html>
 

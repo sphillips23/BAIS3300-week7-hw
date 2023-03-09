@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 <body>
-    <h1>Contact Information</h1>
+    <h1>Survey Participant Information</h1>
 
         <form>
             <fieldset>
+                <legend><strong>Contact Information:</strong></legend>
                 <div>
                     <label for="fname"> First name:
                         <input id="fname" type="text" autofocus >
@@ -30,7 +31,10 @@
                     <label for="email"> Email address:
                         <input id="email" type="email" >
                     </label>
+                </fieldset>
 
+                <fieldset>
+                    <legend><strong>Other:</strong></legend>
                     <div>
                         <label for="age">Undergraduate year:
                             <select name="age" id="age" required>
@@ -47,25 +51,25 @@
 
                     <div>
                         <label for="female"> How do you identify?
-                            <input type="radio" id="female" name="gender" value="female"> Female 
+                            <input type="radio" id="female" name="gender" value="F"> Female 
                         </label>
                         
                         <label for="male">
-                            <input type="radio" id="male" name="gender" value="male"> Male
+                            <input type="radio" id="male" name="gender" value="M"> Male
                         </label>
                         
                         <label for="non-binary">
-                        <input type="radio" id="non-binary" name="gender" value="non-binary">Non-binary
+                        <input type="radio" id="non-binary" name="gender" value="NB">Non-binary
                         </label>   
 
-                        <label for="prefer not to say">
-                            <input type="radio" id="other" name="gender" value="other">Prefer not to say
+                        <label for="prefernottosay">
+                            <input type="radio" id="prefernottosay" name="gender" value="O">Prefer not to say
                             </label>   
 
                     </div>
                    
 
-            </fieldset>
+                </fieldset>
             &nbsp;  
         </form>
         <button aria-label="Go back a page" onclick="window.location.href='./index.html';">
@@ -74,7 +78,6 @@
         <button aria-label="Go to next page" onclick="window.location.href='./survey-2.html';">
         Next page
     </button>
-    </p>
-    <p>page 1 of 2</p>
+    <p><strong>page 1 of 2</strong></p>
 </body>
 </html>

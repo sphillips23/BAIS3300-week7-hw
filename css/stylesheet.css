@@ -7,7 +7,7 @@
 
 
 body {
-    background-color: #f9f2fd ;
+    background-color:#eedafb ;
 }
 
 h1{
@@ -15,15 +15,19 @@ h1{
     color: #4c168d;
 }
 
-h3{
+h2{
     font-family: 'Times New Roman', Times, serif;
     color: #4c168d;
 }
 
 fieldset{
-    background-color: #ead0fb;
+    background-color: #f9f2fd ;
 }
 
 legend{
     color: #4c168d;
+}
+
+p{
+    color: #2b0750
 }
