@@ -1,4 +1,4 @@
-# BAIS330-week7-hw
+# BAIS3300-week7-hw
 hw7
 
 # 4. a. The project tasked us with creating a web form in order to collect data about undergraduate student lifestyles. The form needed to be three pages, have many different form elements, and collect at least name and gender data. 
