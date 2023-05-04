@@ -1,4 +1,4 @@
-# Student Lifestyle Survey - BAIS:3300 HW7
+# Student Lifestyle Survey - BAIS:3300 HW7 :running:
 
 The assignment tasked us with creating a web form in order to collect data about undergraduate student lifestyles. The form needed to be three pages, have many different form elements, and collect at least name and gender data. 
 
