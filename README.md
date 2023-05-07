@@ -15,7 +15,7 @@ This assignment taught me the importance of accessibility in web forms. Making s
 1. Clone this repository.
 2. This project uses static HTML so files can be opened locally by double clicking the .html files.
 
-*Changes to the survey an be made through Visual Studio Code*
+*Changes to this survey can be made through Visual Studio Code*
 
 ## Link to my Survey 🔗
 
