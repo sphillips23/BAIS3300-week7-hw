@@ -2,7 +2,7 @@
 
 The assignment tasked us with creating a web form in order to collect data about undergraduate student lifestyles. The form needed to be three pages, have many different form elements, and collect at least name and gender data. 
 
-## How Does My Survey Conform to Best Practices? :accessibility:
+## How Does My Survey Conform to Best Practices? ✅
 One way my web form conforms to best practices is that it does not collect information that is not necessary. This way the survey participant does not feel like they are giving out too much personal information. This includes not collecting race information and adding an option for gender that says "prefer not to say". Only collecting the information that is needed for the survey permits the best results. 
 
 Another way that my web form conforms to best practices is that I included the use of checkboxes for one of my data collection questions. This allows the user to have options and not have to settle on a single answer. The use of text inputs also adds to the user choice in my web form. Giving the user freedom in their answers will produce results that are the best reflect of them. 
