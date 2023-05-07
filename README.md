@@ -23,7 +23,7 @@ This assignment taught me the importance of accessibility in web forms. Making s
 
 5. Create an Azure static webpage to share your survey with others
 
-## Link to my Survey
+## Link to my Survey 🔗
 
 https://wonderful-bay-06fc7800f.2.azurestaticapps.net
 
