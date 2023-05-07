@@ -12,16 +12,11 @@ Lastly, my use of aria labels and color contrast allows my web form to conform t
 ## What Did I Learn? 💭
 This assignment taught me the importance of accessibility in web forms. Making sure everyone feels comfortable taking your survey and can easily navigate the sight should be a top priority. After learning this knowledge, I made sure to carry it with me into future project in this class and the real world. 
 
-## To Run and Make Changes to this Application 🖱️
-1. Clone this repository to local computer
+## Installation Instructions 🖱️
+1. Clone this repository.
+2. This project uses static HTML so files can be opened locally by double clicking the .html files.
 
-2. Open index.html to take the survey
-
-3. Edit the code in Visual Studio Code to create your own survey
-
-4. Commit changes to GitHub
-
-5. Create an Azure static webpage to share your survey with others
+*Changes to the survey an be made through Visual Studio Code*
 
 ## Link to my Survey 🔗
 
