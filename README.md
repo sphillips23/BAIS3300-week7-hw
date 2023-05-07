@@ -1,6 +1,6 @@
 # Student Lifestyle Survey - BAIS:3300 HW7 🏃‍♀️
 
-The assignment tasked us with creating a web form in order to collect data about undergraduate student lifestyles. The form needed to be three pages, have many different form elements, and collect at least name and gender data. 
+This assignment involved creating a web form in order to collect data about undergraduate student lifestyles. The form needed to be three pages, have many different form elements, and collect at least name and gender data. 
 
 ## How Does My Survey Conform to Best Practices? ✅
 One way my web form conforms to best practices is that it does not collect information that is not necessary. This way the survey participant does not feel like they are giving out too much personal information. This includes not collecting race information and adding an option for gender that says "prefer not to say". Only collecting the information that is needed for the survey permits the best results. 
@@ -12,22 +12,21 @@ Lastly, my use of aria labels and color contrast allows my web form to conform t
 ## What Did I Learn? 💭
 This assignment taught me the importance of accessibility in web forms. Making sure everyone feels comfortable taking your survey and can easily navigate the sight should be a top priority. After learning this knowledge, I made sure to carry it with me into future project in this class and the real world. 
 
-## To Run this Application 🖱️
+## To Run and Make Changes to this Application 🖱️
 1. Clone this repository to local computer
 
-2. Create a new virtual environment
+2. Open index.html to take the survey
 
-   - Windows: python -m venv ./venv
-   - Mac: python3 -m venv ./venv
+3. Edit the code in Visual Studio Code to create your own survey
 
-3. Activate the new virtual environment
+4. Commit changes to GitHub
 
-   - Windows: .\venv\Scripts\activate
-   - Mac: source ./venv/bin/activate
+5. Create an Azure static webpage to share your survey with others
 
-4. Install the dependencies pip install -r requirements.txt
+## Link to my Survey
 
-5. Run the application with python app.py  or flask run
+https://wonderful-bay-06fc7800f.2.azurestaticapps.net
+
 
 
 
