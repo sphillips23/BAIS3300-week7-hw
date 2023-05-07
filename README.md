@@ -5,8 +5,8 @@ This assignment involved creating a web form in order to collect data about unde
 ## How Does My Survey Conform to Best Practices? ✅
 - It does not collect unnecessary information
 - Utilized checkboxes and text inputs for data collection questions
-- Aria labels that can be read by assistive technology
-- Color contrast where ratio of background to foreground colors were largely above the 5:1 guideline. 
+- Has Aria labels that can be read by assistive technology
+- Contains color contrast where ratio of background to foreground colors is largely above the 5:1 guideline. 
 
 ## What Did I Learn? 💭
 This assignment taught me the importance of accessibility in web forms. Making sure everyone feels comfortable taking your survey and can easily navigate the sight should be a top priority. After learning this knowledge, I made sure to carry it with me into future project in this class and the real world. 
